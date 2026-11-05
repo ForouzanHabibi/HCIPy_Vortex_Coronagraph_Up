@@ -92,9 +92,6 @@ py -V:3.12 -m venv .venv
 .\.venv\Scripts\python.exe -m pytest
 ```
 
-On macOS or Linux, create the environment with `python3 -m venv .venv` and replace `.\.venv\Scripts\python.exe` with `.venv/bin/python` in the commands above.
-
-The scripts write PNG figures and CSV tables to `figures/`. Running them again may replace the existing outputs. Dependencies are listed in [requirements.txt](requirements.txt); exact outputs can vary with package versions and numerical settings.
 
 ## Repository guide
 
